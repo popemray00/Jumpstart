@@ -104,6 +104,8 @@ h3 {
   color: rgba(0, 0, 0, 0.7);
 }
 /*featured*/
+
+/*projects*/
 .projects {
   margin-bottom: 5.85rem;
 }
@@ -117,6 +119,24 @@ h3 {
   overflow: hidden;
 
 }
-.trouble {
+
+/*projects*/
+
+/*trouble*/
+.trouble .container {
   text-align: center;
+  padding: 5.2rem 0rem;
+  background-color: #f3f3f3;
+}
+
+.trouble .container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.trouble .container p {
+  width: 42rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  margin: auto;
 }
