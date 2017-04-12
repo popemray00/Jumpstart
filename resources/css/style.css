@@ -24,14 +24,41 @@ body {
 img {
   width: 100%;
 }
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+  transition: transform .5s, opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
 /*universal*/
+
+/*media*/
+@media only screen and (min-width: 768px) {
+  .jumbotron h1 {
+    font-family: Monoton, sans-serif;;
+    font-size: 5.7rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  }
+
+}
 
 /*header*/
 .navbar {
   max-width: 100%;
 }
-.active: active {
-  color: #399bd1;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: inherit;
+    color: #399bd1;
 }
 
 nav ul li {
@@ -48,12 +75,22 @@ nav ul li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  color: white;
 }
-.jumbotron-bike .container {
-  background-image: url(C:\projects\Jumpstart\resources\images\jumbotron-bike.jpg);
-  text-align: center;
+.jumbotron-bike {
+    background-image: url(../images/jumbotron-bike.jpg);
+}
 
+.jumbotron-beer {
+  background-image: url(../images/jumbotron-beer.jpg);
+}
+
+.jumbotron-duffel {
+  background-image: url(../images/jumbotron-duffel.jpg);
+}
+
+.jumbotron-flowers {
+  background-image: url(../images/jumbotron-flowers.jpg);
 }
 
 .jumbotron .container {
@@ -115,7 +152,6 @@ h3 {
   color: #399bd1;
 }
 .projects img {
-  opacity: .7;
   overflow: hidden;
 
 }
@@ -140,3 +176,5 @@ h3 {
   padding-bottom: 1.4rem;
   margin: auto;
 }
+
+/*trouble*/
