@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>JumpStart</title>
-    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
-    <link rel="icon" href="./resources/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+   <link rel="icon" href="resources\favicon.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="resources/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="resources/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
 </head>
 
 <body>
@@ -23,37 +34,72 @@
             <a class="navbar-brand navbar-right collapse navbar-collapse"><img src="C:\projects\Jumpstart\resources\images\logo.png" alt="jumpstart logo"></a>
         </div>
     </nav>
-    <div class="carousel">
-    <div class="jumbotron jumbotron-bike">
-        <div class="container">
+    <div class="carousel slick-initialized slick-slider">
+        <div aria-live="polite" class="slick-list"><div class="slick-track" role="listbox" style="opacity: 1; width: 6984px; transform: translate3d(-3492px, 0px, 0px); transition: transform 500ms ease;"><div class="jumbotron background-duffel slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 1164px;">
+          <div class="container-fluid">
+            <h1>GET STARTED.</h1>
+            <p>What are you waiting for? Today's the day for your next big idea.</p>
+          </div>
+        </div><div class="jumbotron background-bike slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 1164px;">
+          <div class="container-fluid">
+            <h1>GET GOING.</h1>
+            <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+          </div>
+        </div><div class="jumbotron background-beer slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 1164px;">
+          <div class="container-fluid">
+            <h1>GET THINKING.</h1>
+            <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+          </div>
+        </div><div class="jumbotron background-flowers slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 1164px;">
+          <div class="container-fluid">
+            <h1>GET CREATING.</h1>
+            <p>Stop overthinking projects and begin putting them out into the world.</p>
+          </div>
+        </div><div class="jumbotron background-duffel slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide03" style="width: 1164px;">
+          <div class="container-fluid">
+            <h1>GET STARTED.</h1>
+            <p>What are you waiting for? Today's the day for your next big idea.</p>
+          </div>
+        </div><div class="jumbotron background-bike slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 1164px;">
+          <div class="container-fluid">
+            <h1>GET GOING.</h1>
+            <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+          </div>
+        </div></div></div>
+
+
+
+      </div>
+    <!--<div class="jumbotron jumbotron-bike slick-slide slick-cloned">
+        <div class="container-fluid">
             <h1>Get Going</h1>
             <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
             <a class="btn btn-primary btn-lg" href="#">Jump In</a>
         </div>
     </div>
-    <div class="jumbotron jumbotron-beer">
-        <div class="container">
+    <div class="jumbotron jumbotron-beer slick-slide">
+        <div class="container-fluid">
           <h1>GET THINKING.</h1>
           <p>Meet like-minded individuals who will help fuel your creative juices.</p>
           <a class="btn btn-primary btn-lg" href="#">Jump In</a>
         </div>
     </div>
-    <div class="jumbotron jumbotron-duffel">
-        <div class="container">
+    <div class="jumbotron jumbotron-duffel slick-slide">
+        <div class="container-fluid">
           <h1>GET CREATING.</h1>
           <p>Stop overthinking projects and begin putting them out into the world.</p>
 
             <a class="btn btn-primary btn-lg" href="#">Jump In</a>
         </div>
     </div>
-    <div class="jumbotron jumbotron-flowers">
-        <div class="container">
+    <div class="jumbotron jumbotron-flowers slick-slide slick-cloned">
+        <div class="container-fluid">
           <h1>GET STARTED.</h1>
           <p>What are you waiting for? Today's the day for your next big idea.</p>
           <a class="btn btn-primary btn-lg" href="#">Jump In</a>
         </div>
     </div>
-</div>
+</div>-->
 
     <div class="featured-project">
         <h1 class="col-xs-12">Featured Project</h1>
@@ -138,14 +184,5 @@
         <a class="btn btn-primary btn-lg" href="#">Learn more</a>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    <script type="text/javascript">
-        C: \projects\ Jumpstart\ js\ main.js
-    </script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
-
 </html>
